@@ -1,6 +1,8 @@
 ﻿using OOPAdventure;
 
-Console.WriteLine("Hello what is your Name?");
+var language = new English();
+
+Console.WriteLine(language.ChooseYourName);
 
 var name = Console.ReadLine();
 
